@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="620" viewBox="0 0 1180 620">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#172235}.title{font-size:27px;font-weight:bold}.label{font-size:18px}.small{font-size:14px;fill:#46556b}.axis{stroke:#8291a5;stroke-width:1}.bar{fill:#176b87}.ci{stroke:#ae431e;stroke-width:3}.dot{fill:#ae431e}</style>
+<text x="60" y="48" class="title">2024 holdout macro F1 (95% respondent-bootstrap interval)</text>
+<line x1="270.00" y1="100" x2="270.00" y2="525" class="axis" opacity="0.4"/>
+<text x="270.00" y="555" text-anchor="middle" class="small">0.64</text>
+<line x1="385.71" y1="100" x2="385.71" y2="525" class="axis" opacity="0.4"/>
+<text x="385.71" y="555" text-anchor="middle" class="small">0.65</text>
+<line x1="501.43" y1="100" x2="501.43" y2="525" class="axis" opacity="0.4"/>
+<text x="501.43" y="555" text-anchor="middle" class="small">0.66</text>
+<line x1="617.14" y1="100" x2="617.14" y2="525" class="axis" opacity="0.4"/>
+<text x="617.14" y="555" text-anchor="middle" class="small">0.67</text>
+<line x1="732.86" y1="100" x2="732.86" y2="525" class="axis" opacity="0.4"/>
+<text x="732.86" y="555" text-anchor="middle" class="small">0.68</text>
+<line x1="848.57" y1="100" x2="848.57" y2="525" class="axis" opacity="0.4"/>
+<text x="848.57" y="555" text-anchor="middle" class="small">0.69</text>
+<line x1="964.29" y1="100" x2="964.29" y2="525" class="axis" opacity="0.4"/>
+<text x="964.29" y="555" text-anchor="middle" class="small">0.70</text>
+<line x1="1080.00" y1="100" x2="1080.00" y2="525" class="axis" opacity="0.4"/>
+<text x="1080.00" y="555" text-anchor="middle" class="small">0.71</text>
+<text x="255" y="126" text-anchor="end" class="label">CatBoost</text>
+<line x1="788.67" y1="120" x2="895.58" y2="120" class="ci"/>
+<circle cx="840.16" cy="120" r="7" class="dot"/>
+<text x="1090" y="125" class="small">0.6893</text>
+<text x="255" y="169" text-anchor="end" class="label">XGBoost</text>
+<line x1="768.34" y1="163" x2="875.67" y2="163" class="ci"/>
+<circle cx="821.73" cy="163" r="7" class="dot"/>
+<text x="1090" y="168" class="small">0.6877</text>
+<text x="255" y="212" text-anchor="end" class="label">MLPClassifier</text>
+<line x1="757.63" y1="206" x2="871.60" y2="206" class="ci"/>
+<circle cx="818.16" cy="206" r="7" class="dot"/>
+<text x="1090" y="211" class="small">0.6874</text>
+<text x="255" y="255" text-anchor="end" class="label">LightGBM</text>
+<line x1="753.07" y1="249" x2="859.62" y2="249" class="ci"/>
+<circle cx="805.17" cy="249" r="7" class="dot"/>
+<text x="1090" y="254" class="small">0.6862</text>
+<text x="255" y="298" text-anchor="end" class="label">LogisticRegression</text>
+<line x1="702.99" y1="292" x2="813.03" y2="292" class="ci"/>
+<circle cx="760.79" cy="292" r="7" class="dot"/>
+<text x="1090" y="297" class="small">0.6824</text>
+<text x="255" y="341" text-anchor="end" class="label">RandomForest</text>
+<line x1="689.28" y1="335" x2="794.31" y2="335" class="ci"/>
+<circle cx="742.80" cy="335" r="7" class="dot"/>
+<text x="1090" y="340" class="small">0.6809</text>
+<text x="255" y="384" text-anchor="end" class="label">ExtraTrees</text>
+<line x1="636.43" y1="378" x2="729.46" y2="378" class="ci"/>
+<circle cx="682.78" cy="378" r="7" class="dot"/>
+<text x="1090" y="383" class="small">0.6757</text>
+<text x="255" y="427" text-anchor="end" class="label">SVM</text>
+<line x1="626.07" y1="421" x2="729.15" y2="421" class="ci"/>
+<circle cx="678.18" cy="421" r="7" class="dot"/>
+<text x="1090" y="426" class="small">0.6753</text>
+<text x="255" y="470" text-anchor="end" class="label">DecisionTree</text>
+<line x1="534.34" y1="464" x2="647.26" y2="464" class="ci"/>
+<circle cx="592.19" cy="464" r="7" class="dot"/>
+<text x="1090" y="469" class="small">0.6678</text>
+<line x1="270" y1="525" x2="1080" y2="525" class="axis"/>
+<text x="675.0" y="590" text-anchor="middle" class="small">Macro F1</text>
+<text x="60" y="585" class="small">Intervals condition on the saved split, fitted artifacts and validation-selected thresholds; they are not BRFSS design-based.</text>
+</svg>

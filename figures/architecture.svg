@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="620" viewBox="0 0 1180 620">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#172235}.title{font-size:27px;font-weight:bold}.label{font-size:18px}.small{font-size:14px;fill:#46556b}.axis{stroke:#8291a5;stroke-width:1}.bar{fill:#176b87}.ci{stroke:#ae431e;stroke-width:3}.dot{fill:#ae431e}</style>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#46556b"/></marker></defs>
+<text x="60" y="48" class="title">Implemented offline research pipeline</text>
+<rect x="55" y="105" width="250" height="100" rx="10" fill="#f0f6f8" stroke="#176b87" stroke-width="2"/>
+<text x="180.0" y="144" text-anchor="middle" class="label" font-weight="bold">CDC files + docs</text>
+<text x="180.0" y="174" text-anchor="middle" class="small">2024 / 2023 XPT, CSV, layout</text>
+<rect x="365" y="105" width="250" height="100" rx="10" fill="#f0f6f8" stroke="#176b87" stroke-width="2"/>
+<text x="490.0" y="144" text-anchor="middle" class="label" font-weight="bold">Audit and construct</text>
+<text x="490.0" y="174" text-anchor="middle" class="small">checksum, schema, DIABETE4, 67 fields</text>
+<rect x="675" y="105" width="250" height="100" rx="10" fill="#f0f6f8" stroke="#176b87" stroke-width="2"/>
+<text x="800.0" y="144" text-anchor="middle" class="label" font-weight="bold">Split and pipelines</text>
+<text x="800.0" y="174" text-anchor="middle" class="small">train / validation / holdout; preprocess</text>
+<rect x="675" y="290" width="250" height="100" rx="10" fill="#f0f6f8" stroke="#176b87" stroke-width="2"/>
+<text x="800.0" y="329" text-anchor="middle" class="label" font-weight="bold">Fit and select</text>
+<text x="800.0" y="359" text-anchor="middle" class="small">9 classifiers; CV search; validation cutoff</text>
+<rect x="365" y="290" width="250" height="100" rx="10" fill="#f0f6f8" stroke="#176b87" stroke-width="2"/>
+<text x="490.0" y="329" text-anchor="middle" class="label" font-weight="bold">Evaluate frozen artifacts</text>
+<text x="490.0" y="359" text-anchor="middle" class="small">2024 holdout; 2023 strict / degraded</text>
+<rect x="55" y="290" width="250" height="100" rx="10" fill="#f0f6f8" stroke="#176b87" stroke-width="2"/>
+<text x="180.0" y="329" text-anchor="middle" class="label" font-weight="bold">Repeat and compare</text>
+<text x="180.0" y="359" text-anchor="middle" class="small">10 splits; bootstrap; paired tests</text>
+<rect x="365" y="475" width="560" height="90" rx="10" fill="#f0f6f8" stroke="#176b87" stroke-width="2"/>
+<text x="645.0" y="514" text-anchor="middle" class="label" font-weight="bold">Recorded outputs</text>
+<text x="645.0" y="544" text-anchor="middle" class="small">models, predictions, CSV / JSON metrics, reports, figures, run notes</text>
+<line x1="305" y1="155" x2="365" y2="155" stroke="#46556b" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="615" y1="155" x2="675" y2="155" stroke="#46556b" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="800" y1="205" x2="800" y2="290" stroke="#46556b" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="675" y1="340" x2="615" y2="340" stroke="#46556b" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="365" y1="340" x2="305" y2="340" stroke="#46556b" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="500" y1="390" x2="500" y2="475" stroke="#46556b" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="60" y="600" class="small">Offline analysis only; no clinical application or deployment component is present.</text>
+</svg>

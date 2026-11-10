@@ -1,0 +1,28 @@
+# Local environment and credentials
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+
+# Source data and fitted artifacts
+data/
+downloads/
+models/
+runs/
+logs/
+*.log
+*.joblib
+*.pkl
+*.sav
+*.h5
+*.pt
+*.onnx
+
+# Generated bulk outputs; curate small summary tables/figures explicitly
+outputs/predictions/
+outputs/*cache/
+outputs/figures/
+outputs/dry_run/
